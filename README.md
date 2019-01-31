@@ -9,3 +9,7 @@ $ gulp
 
 # distribution build:
 $ gulp dist
+
+-----------
+
+open index file with live server or just double click :)
