@@ -1,0 +1,50 @@
+@media all and (max-width: 1440px){
+
+    html{
+        font-size: 58.5%;
+    }
+
+    .page__cards{
+        max-width: 130rem;
+
+        .card--custom{
+            max-width: 35rem;
+        }
+    }
+
+
+
+}
+
+@media all and (max-width: 1200px){
+
+    .page__cards{
+        margin: 3rem 0;
+
+        .card--custom{
+            max-width: 100%;
+            flex-grow: 1;
+        }
+    }
+
+    .step-circle{
+        transform: rotate(90deg);
+    }
+
+}
+
+@media all and (max-width: 1024px){
+
+    html{
+        font-size: 62.5%;
+    }
+
+}
+
+@media all and (min-width: 768px){
+
+    .w-md-auto{
+        width: auto !important;
+    }
+
+}

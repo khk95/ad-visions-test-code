@@ -1,0 +1,31 @@
+@import '_fonts';
+
+// fonts
+$Myriad: 'Myriad', sans-serif;
+
+// colors
+$dark: #4f4e4d;
+$grey: #8c8c8c;
+$grey-light: #dcdcdb;
+$purple: #6f32f8;
+
+$gradient-color-1: #7e39f5;
+$gradient-color-2: #1bd4db;
+
+$gradient-color-3: #a856e5;
+$gradient-color-4: #5c27fe;
+
+$gradient-color-5: #3626f7;
+$gradient-color-6: #310fba;
+
+$gradient-color-7: #ffb33a;
+$gradient-color-8: #ff7c03;
+
+// gradients
+$border-gradient: linear-gradient(135deg, $gradient-color-1, $gradient-color-2, $gradient-color-1);
+$fill-gradient: linear-gradient(135deg, $gradient-color-3, $gradient-color-4);
+$overlay-gradient: linear-gradient(135deg, $gradient-color-5, $gradient-color-6);
+$icon-gradient: -webkit-linear-gradient(135deg, $gradient-color-7, $gradient-color-8);
+
+// bezier
+$easeInOutSine: 0.445, 0.05, 0.55, 0.95;

@@ -1,0 +1,31 @@
+.btn{
+    font-size: 2.2rem;
+    position: relative;
+
+    &--purple{
+        background: white;
+        border-radius: 1rem;
+        color: $purple;
+        padding: .7rem 6rem;
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: -3px;
+            right: -3px;
+            bottom: -3px;
+            left: -3px;
+            display: block;
+            background: $fill-gradient;
+            border-radius: 1.1rem;
+            z-index: -1;
+            transition: .2s;
+        }
+
+        &:hover{
+            background: $fill-gradient;
+            color: white;
+        }
+    }
+
+}

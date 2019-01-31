@@ -1,0 +1,61 @@
+@import './bootstrap/bootstrap';
+@import '_variables';
+@import '_mixins';
+
+html{
+    font-size: 62.5%; 
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: $Myriad;
+}
+
+@import '_buttons';
+@import '_cards';
+
+.page{
+
+    &__cards{
+        max-width: 142rem;
+        margin: 25rem auto;
+
+        &-cta{
+            margin: 8rem auto;
+        }
+    }
+
+}
+
+.step-circle{
+    width: 6rem;
+    height: 6rem;
+    box-shadow: inset 0px 0px 20px 2px rgba(0,0,0,0.13);
+    border-radius: 50%;
+    position: relative;
+    margin: 2rem;
+
+    &:after{
+        content: '';
+        display: block;
+        width: 2.2rem;
+        height: 2.2rem;
+        position: absolute;
+        transform: translate(-50%, -50%) rotate(-135deg);
+        left: calc(50% - .5rem);
+        top: 50%;
+        border: 5px solid transparent;
+        border-color: transparent transparent silver $grey-light;
+    }
+}
+
+.link{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+}
+
+@import '_responsive';

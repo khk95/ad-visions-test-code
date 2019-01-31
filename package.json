@@ -1,0 +1,25 @@
+{
+  "name": "ad-visions-test-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify-es": "^1.0.4",
+    "imagemin-mozjpeg": "^8.0.0"
+  }
+}
